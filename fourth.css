@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fourth-container {
+  background-color: #ffffff;
+  padding: 3rem;
+}
+
+.fourth-h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    padding: 1rem;
+}
+.fourth-p {
+  font-size: 42px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.fourth-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.cont1 {
+  flex: 1 1 calc(33.33% - 30px);
+  background-color: #ffffff;
+  padding: 30px 20px 50px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.fourth-cont-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.fourth-p2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.fourth-p1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  padding: 1rem;
+  word-spacing: 0.2rem;
+}
+
+.rating{
+    margin: 1rem;
+}
+
+@media (max-width: 768px) {
+  .cont {
+    flex: 1 1 calc(50% - 20px);
+  }
+  
+  .fourth-p {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cont {
+    flex: 1 1 100%;
+  }
+  
+  .fourth-p {
+    font-size: 24px;
+    padding: 1.5rem 0;
+  }
+
+  .fourth-p2, .fourth-p3 {
+    font-size: 14px;
+  }
+}
